@@ -1,0 +1,277 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p>America is amidst its largest struggle yet.  It is under threat not from foreign adversaries (although they are involved) but from the domestic enemy.  Donald Trumps rapid centralization of power before the 2026 midterms left the Democrats all but banned, the Democratic and Republican parties forcefully merged into a \"Republican-Democratic Party.\"  This new party isn't bound by law.  Democrats who have refused to go along with it (the vast majority of them) have been arrested and impeached.  The Republican Party has passed sweeping voter restrictions and far-right policies.  \n\n<p>With the Democrats gone, mainstream media and the internet subservient to MAGA, and far-right policies all achieved only one threat remains to President Trump and his heir J.D. Vance.  Moderate Republicans who haven't been purged yet.</p>",
+            "image_url": "https://i.imgur.com/3NXr0pu.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2028"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Larry",
+            "last_name": "Hogan",
+            "election": 21,
+            "party": "Independent",
+            "state": "Maryland",
+            "priority": 1,
+            "description": "<p>Successful bipartisan governor and slightly less successful 2024 Senate nominee, Larry Hogan has returned to politics in a last, desperate attempt to stop America from becoming a dictatorship. He is known in Maryland for his center-right fiscal policies and somewhat liberal social policy.  With the Democratic party all but lost and most third parties banned or defunct, he is running as a true independent. <p>\nThroughout the campaign he must balance his newfounded liberal and progressive bases while attempting to appease his conservative supporters.  He must also break the electoral ceiling by a wide margin due to suspected voter fraud and suppression to have a chance at winning.  </p>",
+            "color_hex": "#21822d",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/kFhOF7C.png",
+            "electoral_victory_message": "\n<p>  <p> <p> <p> As you watch the results trickle in, it is clear that it is going to be a close race.  It really shouldn't be one, but it is.  As ICE agents continue to surveil polling stations and mail-in-votes are blocked, it becomes clear you had a large enough real lead to break through the rigging. <p> As the night progresses and swing states trickle in, the race appears close yet independent analysists online are increasingly saying that it looks like you might win.  You go to sleep; it's going to be a close one. </p>  <p> You wake up next morning to see what you were hoping for came true, you would be the next President of the United States.   J.D. Vance does not concede, as expected, and Congress prepares to overturn the results of the election.  Huge public protests erupt, mostly peaceful.  You do your part, travelling to Baltimore after a quick call with Fitzpatrick and give a speech to thousands of supporters.  Amidst the public pressure, Congress reluctantly certifies the election, ushering in a new era for America.  It would be hard to rebuild, but the people had hope\n",
+            "electoral_loss_message": "<p> <p> <p> <p> Trump has talked about election fraud for over a decade now, but this time you knew it was true.  As ICE patrolled the polling stations and millions of votes were suppressed or likely altered, the map continued to light up red.  You managed to do better than Kamala Harris, which was a large feat amidst this huge rigging, one that would have secured you a historic mandate in other times.   These weren't those times though, and you had lost.  Fitzpatrick calls you in tears, telling you to evacuate America because 'it is only going to get worse.'  You don't listen but he does, and within a few days he is in Germany for political asylum.  As Vance gives his ravenous victory speech, you wish you had listened to Fitzpatrick..",
+            "no_electoral_majority_message": "i havent prepared for this",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "J.D.",
+            "last_name": "Vance",
+            "election": 21,
+            "party": "Republican-Democratic",
+            "state": "Ohio",
+            "priority": 2,
+            "description": "(NOT PLAYABLE)<p> Vice President Vance, the savior of Christianity and all things good, enters the 2028 election with a huge lead in almost all polls.  The Democrats?  They are gone.  Even CNN loves us   now thanks to our amazing policies and exporting of Democracy globally! <p>\nThanks to the passing of the SAVE Act, Illegal voting fraud isn't a concern anymore, so you can expect an easy win as long as you continue to enforce the wonderful laws signed under President Trump.  Go get em' JD!</p>",
+            "color_hex": "#7a0505",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/z73x9vh.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Tom",
+            "last_name": "Suozzi",
+            "election": 21,
+            "party": "Independent",
+            "state": "New York",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#1c53a6",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Brian",
+            "last_name": "Fitzpatrick",
+            "election": 21,
+            "party": "Republican-Democratic",
+            "state": "Pennsylvania",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#299e2d",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/BqKQ9Do.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Brian Fitzpatrick is a congressman from Pennsylvania's first congressional district.  He was one of the only Republicans in swing districts to legitimately win his election without the need of President Trumps sweeping 'reforms.'  As one of the most bipartisan members of Congress, Trump is already not a huge fan of him and he is more than willing to join the ticket. His moderate positions on many issues will hopefully help bridge the divide and not alienate many.  He is also miraculously one of the last few non-Trump loyalists in Congress, making him a valuable asset.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Mike",
+            "last_name": "Lee",
+            "election": 21,
+            "party": "Republican-Democratic",
+            "state": "Utah",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#ac0606",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/HRBVLZE.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The man who led us to now is what many describe him as.  Once an underperforming backbencher, he is now one of the most significant figures in American history, persuading Trump to embrace far-right ideology fully and beginning his authoritarian arc.  His main contributions are successfully abolishing the filibuster, becoming Senate Majority Leader in 2027, passing the SAVE Act, and impeaching hundreds of Democrats across the country. </p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 311,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Gottheimer",
+            "election": 21,
+            "party": "Republican-Democratic",
+            "state": "New Jersey",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#321ca0",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 205,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 309
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 207,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 311
+        }
+    }
+]
+
+campaignTrail_temp.credits = "LampsOnSpmals"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2028"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#c39798",
+    "containerColor": "#714b4b",
+    "innerWindowColor": "#b4a7a7",
+    "bannerImageUrl": "https://i.imgur.com/t1rKSnS.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#c39798";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#714b4b";
+
+document.getElementById("header").src = "https://i.imgur.com/t1rKSnS.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#b4a7a7!important;}</style>";
+
+//#endcode
